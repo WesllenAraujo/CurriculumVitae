@@ -1,0 +1,72 @@
+@media (max-width: 600px) {
+    .box {
+        width: 100%;
+        margin: 0;
+    }
+
+    .group {
+        padding: 0 0 0 .5em;
+    }
+
+    .content {
+        width: 100%;
+        height: 100%;
+        padding: 0 0 1em 0;
+    }
+
+    .principal-content {
+        border-radius: 0;
+    }
+
+    .meimg {
+        width: 7em;
+        height: 6.5em;
+        margin-right: 2.5em;
+    }
+
+    .subtitle {
+        width: 8em;
+    }
+
+    .subtitle:not(:nth-child(2)) {
+        width: 12em;
+    }
+
+    .certificates {
+        width: 20em;
+        margin-left: 1em;
+        list-style: circle;
+    }
+
+    .list {
+        width: 20em;
+    }
+}
+
+@media (max-width: 300px) {
+    .principal-content {
+        font-size: 0.8em;
+    }
+
+    .subtitle {
+        width: 6em;
+        font-size: 1.4em;
+    }
+
+    .subtitle:not(:nth-child(2)) {
+        width: 12em;
+        font-size: 1.2em;
+    }
+
+    .meimg {
+        margin-right: .7em;
+    }
+
+    .list {
+        width: 12em;
+    }
+
+    .certificates {
+        width: 15em;
+    }
+}
